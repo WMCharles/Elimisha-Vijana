@@ -7,3 +7,10 @@ font-family: 'Oleo Script', cursive; */
 .header{
     border:1px solid rgb(197, 119, 119);
 }
+.about{
+    border:2px solid red;
+}
+
+.benefits{
+    border:1px solid green;
+}
