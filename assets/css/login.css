@@ -1,0 +1,11 @@
+.all{
+    display: flex;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.all div{flex: 50%;
+
+}
+.head{font-size: 20px;
+
+}
