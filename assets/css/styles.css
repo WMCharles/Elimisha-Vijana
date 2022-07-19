@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* Navigation Bar */
+
+
+
+/* End of Navigation Bar */
+.container {
+    width: 87%;
+    margin: auto;
+    font-family: 'Poppins';
+}
+
+.scholarship {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10em;
+    margin-top: 2em;
+    padding: 20px;
+}
+
+.scholarship div{
+    flex: 50%;
+}
+
+
+.scholarship > div > img {
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10em;
+    /* box-shadow: 2px 1px 15px grey, 0 0 0 grey; */
+    padding: 1rem 0;
+    border-radius: 5px;
+}
+
+.testimonials {
+    margin-bottom: 10em;
+}
+
+.icon {
+    font-size: 2rem;
+    color: rgb(10, 10, 236);
+}
+
+.testimonials #p, .testimonials #h2 {
+    text-align: center;
+}
+
+#p {
+    font-size: 1.3rem;
+}
+
+.testimonials-x {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.testimonials-x div {
+    flex: 25%;
+    margin: 1.2rem;
+}
+
+#person-x {
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+#person-x:hover {
+    box-shadow: 1px 1px 5px #E5872D;
+}
+
+#person {
+    display: flex;
+    flex-direction: row;
+    font-size: .8em;
+}
+
+#person-id {
+    align-items: center;
+    padding: 30px 0 0 0;
+}
+
+.testimonials-x > div>  div > div >img{
+    width: 100%;
+}
+
+.stars {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.checked {
+    color: #E5872D; 
+}
+.newsletter {
+    text-align: center;
+    line-height: 3em;
+    margin-bottom: 10em;
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    /* border-radius: 10px; */
+    width: 25rem;
+}
+
+button {
+    padding: 10px;
+    width: 10em;
+    background-color: #E5872D;
+    border: #E5872D;
+}
+
+@media only screen and (max-width:900px) {
+    .testimonials-x {
+        display:flex;
+        flex-direction: column;
+    }
+    #person {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #person div img{
+        width: 50%;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    .about div {
+        margin-bottom: 4em;
+    }
+
+    .scholarship {
+        flex-direction: column;
+    }
+
+    .scholarship-content {
+        margin: 2em;
+    }
+
+    input {
+        padding: 8px;
+        width: 15rem;
+    }
+    
+    button {
+        padding: 8px;
+        width: 7em;
+        background-color: #E5872D;
+
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1200px) {
+    .stars {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #person {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .testimonials {
+        font-size: .8em;
+    }
+
+    .about {
+        font-size: .8em;
+    }
+}
