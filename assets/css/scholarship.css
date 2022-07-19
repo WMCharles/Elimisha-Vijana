@@ -38,3 +38,36 @@
     font-size: 27PX;
     line-height: 40px;
 }
+
+
+
+/* about Scholarships */
+
+.about-scholarships{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.about-institution {
+    display: flex;
+}
+
+.about-institution img{
+    width: 250px;
+
+}
+.moringa{
+    padding-top: 25px;
+    margin-left: 20px;
+}
+.moringa p{
+   font-size: 20px;
+   line-height: 30px;
+ 
+}
+.moringa a{
+    color: #E5872D;
+    text-decoration: none;
+    font-size: 25px;
+}
