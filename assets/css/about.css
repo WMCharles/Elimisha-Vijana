@@ -1,25 +1,146 @@
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Oleo Script', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,500&family=Space+Grotesk:wght@500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,500&family=Space+Grotesk:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,200&display=swap");
+/* Start of general styles */
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.conatiner {
+  width: 90%;
+  scroll-behavior: smooth;
+}
+/* End of general styles */
+
+/* start of logo styles */
+.logo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  width: 20%;
+}
+#logo-name h3 {
+  font-family: "Oleo Script", cursive;
+  color: #4b59b7;
+  position: relative;
+  left: -25px;
+}
+#logo-name h3 span {
+  color: #e5872d;
+  font-family: "Oleo Script", cursive;
+}
+
+#logo > img {
+  width: 80px;
+  height: 50px;
+}
+/* End of logo styles */
+
+/* Start of styles of header class */
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  padding: 0 30px 0 30px;
+}
+
+.nav-bar {
+  position: relative;
+  width: 60%;
+  margin-left: 250px;
+  margin-right: 20px;
+  padding: 0px 30px 0 30px;
+}
+.nav-bar nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 13px;
+  gap: 100px;
+}
+
+.nav-bar nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar nav ul li a:active{
+  color: #e5872d;
+}
+.nav-bar nav ul li a:hover{
+  color: #e5872d;
+}
 
 
-.header{
-    border:1px solid rgb(197, 119, 119);
-}
-.about{
-    border:2px solid red;
+
+/* End of styles of header class */
+.authentication {
+  display: flex;
+  width: 20%;
+  padding:5px 5px 5px 5px; 
 }
 
-.benefits{
-    border:1px solid green;
+
+/* Start of authentication style */
+button{
+  border-style: none;
+  width:100px;
+  height: auto;
+  padding: 5px 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
 }
-.mision-vision{
-    border:1px solid cyan;
+
+#signup a:hover{
+  color:#e5872d;
 }
-.category{
-    border:1px solid black;
+
+#signup{
+  border:1px solid #e5872d;
+  color: #e5872d;
 }
-.footer{
-    border: 1px solid blue;
+#login a:hover{
+  color:#e5872d;
+}
+button :active{
+  background-color: #e5872d;
+  color: white;
+}
+button a{
+  text-decoration: none;
+  color: #4b59b7;
+}
+/* End of authentication style */
+
+
+/* Start of  */
+.header {
+  border: 1px solid rgb(197, 119, 119);
+}
+.about {
+  border: 2px solid red;
+}
+
+.benefits {
+  border: 1px solid green;
+}
+.mision-vision {
+  border: 1px solid cyan;
+}
+.category {
+  border: 1px solid black;
+}
+.footer {
+  border: 1px solid blue;
 }
