@@ -46,7 +46,6 @@ font-family: 'Oleo Script', cursive; */
   align-items: center;
   min-height: 70px;
   padding: 0 30px 0 30px;
-  border: 1px solid green;
 }
 
 .nav-bar {
@@ -157,16 +156,51 @@ button a {
 }
 /* End of about section styles */
 
-.about {
-  border: 2px solid red;
+/* Start of benefit styles */
+.benefits {
+  display: flex;
+}
+.benefits p {
+  font-size: 13px;
 }
 
-.benefits {
-  border: 1px solid green;
+.benefit {
+  width: 300px;
+  height: 200px;
+  padding-top: 50px;
+  padding-left: 20px;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 10px;
+  transition: all 0.4s ease-out;
 }
+
+.benefit:hover {
+  transform: scale(1.02);
+  background-color: #4b59b7;
+  color: white;
+}
+.fa-solid::after {
+  color: white;
+}
+.fa-solid {
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: #ede8e8;
+}
+.fa-solid {
+  color: #4b59b7;
+}
+/* End of benefit styles */
+
+/* start of mision styles */
 .mision-vision {
   border: 1px solid cyan;
+  margin-top: 50px;
+  background-color: #EDE8E8;
+  display: flex;
 }
+/* End of mision styles */
 .category {
   border: 1px solid black;
 }
