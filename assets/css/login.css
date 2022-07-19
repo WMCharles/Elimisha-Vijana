@@ -14,18 +14,16 @@
     font-family: poppins;
     margin-top: 0rem;
     margin-bottom: 1.5rem;
-    margin-left: 8rem;
+    margin-left: 1.5rem;
 }
 .user{
     font-size: 30px;
     font-family: poppins;
     display: block;
+    margin-top: 2rem;
     
 }
-.user>form{
-    font-size: 20px;
-    display: block;
-}
+
 button{
     margin-bottom: 10px;
     padding: 10px 20px;
@@ -33,5 +31,12 @@ button{
     border-radius: 10rem;
     border: 3px solid;
     font-size: 15px;
+    margin-top: 5rem;
 
+}
+input{
+    display: block;
+    border-radius: 10rem;
+    height: 30px;
+    width: 20rem;
 }
