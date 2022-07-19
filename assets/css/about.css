@@ -20,7 +20,7 @@ font-family: 'Oleo Script', cursive; */
 .logo {
   display: flex;
   align-items: center;
-  position: absolute;
+  position: relative;
   left: 0px;
   width: 20%;
 }
@@ -28,7 +28,6 @@ font-family: 'Oleo Script', cursive; */
   font-family: "Oleo Script", cursive;
   color: #4b59b7;
   position: relative;
-  left: -25px;
 }
 #logo-name h3 span {
   color: #e5872d;
@@ -47,12 +46,13 @@ font-family: 'Oleo Script', cursive; */
   align-items: center;
   min-height: 70px;
   padding: 0 30px 0 30px;
+  border: 1px solid green;
 }
 
 .nav-bar {
   position: relative;
   width: 60%;
-  margin-left: 250px;
+  margin-left: 10px;
   margin-right: 20px;
   padding: 0px 30px 0 30px;
 }
@@ -66,32 +66,29 @@ font-family: 'Oleo Script', cursive; */
   gap: 100px;
 }
 
-.nav-bar nav ul li a{
+.nav-bar nav ul li a {
   text-decoration: none;
   color: black;
 }
 
-.nav-bar nav ul li a:active{
+.nav-bar nav ul li a:active {
   color: #e5872d;
 }
-.nav-bar nav ul li a:hover{
+.nav-bar nav ul li a:hover {
   color: #e5872d;
 }
-
-
 
 /* End of styles of header class */
 .authentication {
   display: flex;
   width: 20%;
-  padding:5px 5px 5px 5px; 
+  padding: 5px 5px 5px 5px;
 }
 
-
 /* Start of authentication style */
-button{
+button {
   border-style: none;
-  width:100px;
+  width: 100px;
   height: auto;
   padding: 5px 20px;
   text-align: center;
@@ -102,32 +99,64 @@ button{
   background-repeat: no-repeat;
 }
 
-#signup a:hover{
-  color:#e5872d;
-}
-
-#signup{
-  border:1px solid #e5872d;
+#signup a:hover {
   color: #e5872d;
 }
-#login a:hover{
-  color:#e5872d;
+
+#signup {
+  border: 1px solid #e5872d;
+  color: #e5872d;
 }
-button :active{
+#login a:hover {
+  color: #e5872d;
+}
+button :active {
   background-color: #e5872d;
   color: white;
 }
-button a{
+button a {
   text-decoration: none;
   color: #4b59b7;
 }
 /* End of authentication style */
 
-
-/* Start of  */
-.header {
-  border: 1px solid rgb(197, 119, 119);
+/* Start of about section styles */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 40px;
+  height: 300px;
 }
+
+.heading {
+  width: 40%;
+}
+
+.about-info {
+  width: 50%;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+#about {
+  color: #e5872d;
+  font-size: 15px;
+  font-weight: lighter;
+}
+#scholarship {
+  color: #e5872d;
+}
+#elimisha {
+  color: #4b59b7;
+}
+#vijana {
+  color: #e5872d;
+}
+/* End of about section styles */
+
 .about {
   border: 2px solid red;
 }
