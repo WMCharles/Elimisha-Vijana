@@ -1,0 +1,40 @@
+
+
+.platform{
+    display: flex;
+}
+
+.about-images{
+    width: 50%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns:350px 300px ;
+}
+
+.about-images img{
+    width: 300px;
+    height: 200px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-around;
+}
+
+#num{
+    color: #4B59B7;
+}
+
+.about-text{
+    width: 50%;
+}
+
+.about-text h2{
+    font-size: 40px;
+    color: #E5872D;
+}
+
+.about-text P{
+    font-size: 27PX;
+    line-height: 40px;
+}
