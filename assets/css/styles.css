@@ -1,16 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
-/* Navigation Bar */
-
-
-
-/* End of Navigation Bar */
 .container {
     width: 87%;
     margin: auto;
-    font-family: 'Poppins';
+    font-family: 'Kanit';
 }
 
+h2, h3 {
+    color: #4B59B7;
+}
 .scholarship {
     display: flex;
     flex-direction: row;
@@ -27,6 +26,37 @@
 
 .scholarship > div > img {
     width: 100%;
+}
+
+.scholarship-content {
+    padding: 3em;
+    line-height: 2.5em;
+}
+
+.scholarship-content > p {
+    font-size: 1.3em;
+}
+
+#h2 {
+    font-size: 2.5em;
+    margin-bottom: 1.2em;
+}
+
+#search {
+    margin-top: 2em;
+    background-color: #E5872D;
+    padding: .5em;
+    width: 8em;
+    border-radius: .7em;
+    text-align: center;
+}
+#search > a{
+    color: white;
+    text-decoration: dashed;
+}
+
+.title {
+    color: #E5872D;
 }
 
 .about {
@@ -53,6 +83,7 @@
 
 #p {
     font-size: 1.3rem;
+    color: #E5872D;
 }
 
 .testimonials-x {
