@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 :root {
     --sky-blue: #2549D3;
     --blue: #0F298B;
@@ -14,7 +15,7 @@
 }
 
 body {
-    font-family: 'Poppins';
+    font-family: 'Kanit';
     background-color: var(--white);
 }
 
@@ -41,8 +42,16 @@ header {
     display: inline-block;
     margin-left: 1em;
     font-size: 30px;
-    font-family: 'Oleo Script';
+    font-family: 'Kanit';
     color: #0F298B;
+}
+
+.logo > img {
+    width: 25%;
+}
+
+#logo-img {
+    display: none;
 }
 
 .nav {
@@ -142,6 +151,11 @@ header {
     .logo {
         margin-left: 10px;
     }
+
+    #logo-img {
+        display:inline;
+    }
+
     .nav{
         max-height: none;
         top: 0;
@@ -185,13 +199,23 @@ header {
     }
     
     .logo {
+        display: flex;
         font-family: 'Oleo Script';
-        font-size: 35px;
+        font-size: 30px;
         color: var(--blue);
+        padding: 2px;
+        align-items: center;
+    }
+
+    #elimisha {
+        margin-left: .5em;
+    }
+
+    #vijana {
+        color: #E5872D;
     }
 
     .side-menu1, .hamb1 {
         display: none;
     }
-
 }
