@@ -290,75 +290,151 @@ button a {
 
 /* Start of footer styles */
 .footer {
-  width:100%; 
-  /* background-color: #4b59b7;
-  color: white; */
+  height: 400px;
+  background-color: #ede8e8;
+  border: 1px solid green;
 }
-.footer-section-1{
+#footer {
+  width: 100%;
+  height: 300px;
+}
+.footer-section-1 {
   display: flex;
+  justify-content: space-between;
   font-size: 13px;
   margin-top: 30px;
-
-  
 }
-.footer-section-1 a{
+.footer-section-1 a {
   text-decoration: none;
-  color: black; 
+  color: black;
 }
 
-
-.section-1{
-  font-size: 13px; 
+.section-1 {
+  font-size: 13px;
   padding: 0 10px 0 10px;
 }
 
-.email{
+.email {
   margin-top: 20px;
 }
 
-.email input[type=email]{
+.email input[type="email"] {
   width: 200px;
   height: 30px;
   border-style: none;
-  background-color: #ede8e8;
+  background-color: white;
+  border-radius: 10px;
   text-align: center;
 }
-.email .submit-btn{
+.email .submit-btn {
   width: 100px;
   height: 30px;
   background-color: #4b59b7;
   color: white;
 }
 
-#footer h4{
+#footer h4 {
   padding-bottom: 10px;
 }
-.information ul li a{
- line-height: 2;
+.information ul li a {
+  line-height: 2;
 }
 .company ul li {
   line-height: 2;
 }
 
-.icons{
-  margin-top: 20px;
+.icons {
+  margin-top: 50px;
   /* text-align: center; */
   display: flex;
-
 }
-.fa-brands{
+.fa-brands {
   color: #4b59b7;
   width: 80px;
   font-size: 2rem;
-  
 }
 
-#copy-right{
+.footer-ending {
+  border: 1px solid blue;
+  width: 95%;
+  font-size: 13px;
+  margin-top: 30px;
+  position: relative;
+  top: 60px;
+  padding: 0 10px 0 10px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+#footer-logo {
+  text-align: left;
+  border: 1px solid green;
+  width: fit-content;
+}
+#copy-right {
   text-align: center;
-}
-
-.footer #logo-name h3{
-  position: absolute;
-
+  border: 1px solid red;
 }
 /* End of footer styles */
+
+@media only screen and (max-width: 960px) {
+  .conatiner {
+    width: 100%;
+    background-color: red;
+  }
+
+  .about {
+    text-align: left;
+    justify-content: space-between;
+    padding: 0 10px 0 20px;
+    height: 300px;
+    border: 1px solid green;
+    width: 95%;
+  }
+  .heading {
+    width: 30%;
+    font-size: 10px;
+  }
+  .about-info {
+    font-size: 10px;
+  }
+
+  #about {
+    color: #e5872d;
+    font-size: 10px;
+    font-weight: lighter;
+  }
+  .benefits {
+    flex-direction: column;
+  }
+  .benefit{
+    margin-top: 20px;
+  }
+  .cat {
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .cat-card{
+    margin-top: 20px;
+  }
+
+  .mision-vision img {
+    width: 80px;
+    height: auto;
+    display: grid;
+  }
+
+  .mision,
+  .vision {
+    width: 40%;
+    margin: 20px;
+  }
+
+  .mision p,
+  .vision p {
+    font-size: 8px;
+    text-align: justify;
+  }
+}
