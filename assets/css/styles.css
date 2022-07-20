@@ -4,7 +4,7 @@
 .container {
     width: 87%;
     margin: auto;
-    font-family: 'Kanit';
+    font-family: 'Poppins';
 }
 
 h2, h3 {
@@ -33,12 +33,12 @@ h2, h3 {
     line-height: 2.5em;
 }
 
-.scholarship-content > p {
+/* .scholarship-content > p {
     font-size: 1.3em;
-}
+} */
 
 #h2 {
-    font-size: 2.5em;
+    /* font-size: 2.5em; */
     margin-bottom: 1.2em;
 }
 
@@ -99,7 +99,7 @@ h2, h3 {
 }
 
 #person-x {
-    box-shadow: 1px 1px 5px grey;
+    box-shadow: 1px 1px 5px 0px grey;
     border-radius: 8px;
     padding: 15px;
 }
