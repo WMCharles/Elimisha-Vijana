@@ -1,0 +1,135 @@
+/* Start of footer styles */
+.footer {
+  height: 400px;
+  background-color: #ede8e8;
+  padding-top: 15px;
+}
+#footer {
+  width: 95%;
+  height: 250px;
+}
+.footer-section-1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 30px;
+}
+.footer-section-1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.section-1 {
+  font-size: 13px;
+  padding: 0 10px 0 10px;
+}
+
+.email {
+  margin-top: 20px;
+}
+
+.email input[type="email"] {
+  width: 200px;
+  height: 30px;
+  border-style: none;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.email .submit-btn {
+  width: 100px;
+  height: 30px;
+  background-color: #4b59b7;
+  
+}
+
+.email .submit-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer h4 {
+  padding-bottom: 10px;
+}
+.information ul li a {
+  line-height: 2;
+}
+.company ul li {
+  line-height: 2;
+}
+
+.icons {
+  margin-top: 50px;
+  
+}
+.fa-brands {
+  color: #4b59b7;
+  width: 80px;
+  font-size: 2rem;
+}
+
+
+
+.footer-ending {
+  height: 30px;
+  width: 85%;
+  font-size: 13px;
+  margin-top: 30px;
+  position: relative;
+  top: 60px;
+  padding: 0 10px 0 10px;
+}
+
+#footer-logo {
+  text-align: left;
+  width: fit-content;
+  position: absolute;
+  left: 40px;
+  color: #4b59b7;
+  font-family: "Oleo Script", cursive;
+  font-size: 18px;
+}
+
+#footer-logo span {
+  font-family: "Oleo Script", cursive;
+  color: #e5872d;
+}
+#copy-right {
+  width: fit-content;
+  padding-top: 5px;
+  position: absolute;
+  right: 0;
+}
+/* End of footer styles */
+
+/* Start of footer media query */
+@media only screen and (max-width: 960px) {
+  .footer {
+    height: 700px;
+  }
+  .footer-section-1 {
+    display: block;
+    width: 100%;
+  }
+
+  .information {
+    margin-top: 20px;
+    display: block;
+    padding: 0 10px 0 10px;
+  }
+
+  .company {
+    margin-top: 20px;
+    padding: 0 10px 0 10px;
+  }
+
+  .footer-ending {
+    width:100%
+  }
+
+  #footer-logo {
+    left: 0px;
+  }
+}
+
+/* End of footer media query */

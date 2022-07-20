@@ -1,0 +1,369 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,200&display=swap");
+/* Start of general styles */
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+
+.conatiner {
+  width: 90%;
+  scroll-behavior: smooth;
+}
+/* End of general styles */
+
+/* start of logo styles */
+.logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 0px;
+  width: 20%;
+}
+#logo-name h3 {
+  font-family: "Oleo Script", cursive;
+  color: #4b59b7;
+  position: relative;
+}
+#logo-name h3 span {
+  color: #e5872d;
+  font-family: "Oleo Script", cursive;
+}
+
+#logo > img {
+  width: 80px;
+  height: 50px;
+}
+/* End of logo styles */
+
+/* Start of styles of header class */
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 70px;
+  padding: 0 30px 0 30px;
+  width: 100%;
+  /* position: fixed; */
+  background-color: white;
+}
+
+.nav-bar {
+  position: relative;
+  left: 35px;
+  width: 50%;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 0px 20px 0 10px;
+}
+.nav-bar nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 13px;
+  gap: 100px;
+}
+
+.nav-bar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar nav ul li a:active {
+  color: #e5872d;
+}
+.nav-bar nav ul li a:hover {
+  color: #e5872d;
+}
+
+/* End of styles of header class */
+.authentication {
+  display: flex;
+  width: 30%;
+  padding: 5px 5px 5px 5px;
+}
+
+/* Start of authentication style */
+button {
+  border-style: none;
+  width: 100px;
+  height: auto;
+  padding: 5px 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+
+#signup a:hover {
+  color: #e5872d;
+}
+
+#signup {
+  border: 1px solid #e5872d;
+  color: #e5872d;
+}
+#login a:hover {
+  color: #e5872d;
+}
+button :active {
+  background-color: #e5872d;
+  color: white;
+}
+button a {
+  text-decoration: none;
+  color: #4b59b7;
+}
+/* End of authentication style */
+
+/* Start of about section styles */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 0 20px;
+  height: 300px;
+  width: 95%;
+  margin-bottom: 30px;
+}
+
+.heading {
+  width: 40%;
+}
+
+.about-info {
+  width: 50%;
+  font-size: 13px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.about-info p {
+  float: right;
+}
+
+#about {
+  color: #e5872d;
+  font-size: 15px;
+  font-weight: lighter;
+}
+#scholarship {
+  color: #e5872d;
+}
+#elimisha {
+  color: #4b59b7;
+}
+#vijana {
+  color: #e5872d;
+}
+/* End of about section styles */
+
+/* Start of benefit styles */
+.benefits {
+  display: flex;
+  width: 95%;
+}
+.benefits p {
+  font-size: 13px;
+}
+
+.benefit {
+  width: 300px;
+  height: 200px;
+  padding-top: 50px;
+  padding-left: 20px;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 10px;
+  transition: all 0.4s ease-out;
+}
+
+.benefit:hover {
+  transform: scale(1.02);
+  background-color: #4b59b7;
+  color: white;
+}
+.fa-solid::after {
+  color: white;
+}
+.fa-solid {
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: #ede8e8;
+}
+.fa-solid {
+  color: #4b59b7;
+}
+/* End of benefit styles */
+
+/* start of mision styles */
+.mision-vision {
+  padding: 40px;
+  margin-top: 50px;
+  background-color: #ede8e8;
+  display: flex;
+  width: 95%;
+}
+.mision,
+.vision {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+}
+
+.mision h3,
+.vision h3 {
+  text-align: center;
+  color: #e5872d;
+  font-size: 15px;
+}
+.mision p,
+.vision p {
+  font-size: 13px;
+  text-align: justify;
+}
+.vision p {
+  margin-top: 40px;
+}
+.mision-vision img {
+  width: 150px;
+  height: auto;
+  display: grid;
+}
+/* End of mision styles */
+
+/* Start of category section styles*/
+.category {
+  width: 95%;
+}
+#scholarship-id {
+  text-align: center;
+}
+#category {
+  text-align: center;
+  color: #e5872d;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.category > h3 > span {
+  color: #e5872d;
+}
+
+.cat {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cat-card p {
+  font-size: 13px;
+}
+.cat-card {
+  width: 300px;
+  height: 200px;
+  padding-top: 50px;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+  transition: all 0.4s ease-out;
+  background-color: #ede8e8;
+}
+.cat-card:hover {
+  border: 1px solid #e5872d;
+  box-shadow: none;
+  transform: scale(1.02);
+}
+/* End of category section styles */
+
+@media only screen and (max-width: 700px) {
+  .conatiner {
+    width: 100%;
+  }
+
+  .about {
+  flex-direction: column;
+    padding: 0 10px 0 20px;
+    height: 250px;
+    width: 95%;
+  }
+  .heading {
+    margin-top: 20px;
+    font-size: 10px;
+    width: 100%;
+  }
+  .about-info {
+ 
+    width: 100%;
+    text-align: justify;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 10px;
+    text-align: left;
+  }
+  .about-info p {
+    float: none;
+    padding-left: 0px;
+  }
+
+  #about {
+    color: #e5872d;
+    font-size: 10px;
+    font-weight: lighter;
+  }
+  .benefits {
+    flex-direction: column;
+  }
+  .benefit {
+    margin-top: 20px;
+  }
+  .cat {
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .cat-card {
+    margin-top: 20px;
+  }
+  .mision-vision {
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #ede8e8;
+    display: flex;
+    width: 95%;
+    gap: 20px;
+
+    flex-direction: column;
+  }
+  .mision-vision img {
+    width: 80px;
+    height: auto;
+    display: grid;
+  }
+
+  .mision,
+  .vision {
+    width: 100%;
+  }
+
+  .mision p,
+  .vision p {
+    font-size: 13px;
+    text-align: justify;
+    display: grid;
+  }
+}
