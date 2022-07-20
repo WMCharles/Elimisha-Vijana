@@ -96,6 +96,12 @@ input:invalid{
 forget.hover{
     color: #E5872D;
 }
+
+.user > .error {
+    color: red;
+    font-size: 14px;
+}
+
 @media only screen and (max-width:1080px) {
     .all{
         display: flex;
