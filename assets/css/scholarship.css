@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@300;400;500&family=Space+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 
 
 .platform{
@@ -35,7 +44,7 @@
 }
 
 .about-text P{
-    font-size: 27PX;
+    font-size: 22PX;
     line-height: 40px;
 }
 
@@ -63,7 +72,7 @@
     margin-left: 20px;
 }
 .moringa p{
-   font-size: 20px;
+   font-size: 18 px;
    line-height: 30px;
  
 }
@@ -71,4 +80,82 @@
     color: #E5872D;
     text-decoration: none;
     font-size: 25px;
+}
+
+
+/* responsiveness  */
+
+
+@media only screen and (max-width:1024px){
+
+.platform{
+    display: flex;
+}
+
+    .about-images{
+        width: 30%;
+        display: grid;
+        gap: 150px;
+        justify-content: space-around;
+        grid-template-columns:60px 80px ;
+        margin-right: 230px;
+    }
+
+
+    .about-images img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .about-text{
+        width: 30%;
+    }
+    .about-text h2{
+        font-size: 20px;
+        color: #E5872D;
+    }
+    
+    .about-text P{
+        font-size: 15PX;
+        line-height: 28px;
+    }
+    
+}
+
+
+@media only screen and (max-width:1024px){
+
+    
+.about-scholarships{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 50px;
+    margin-right: 50px; 
+}
+
+.about-institution {
+    display: flex;
+}
+
+.about-institution img{
+    width: 100px;
+    height: 120px;
+
+}
+.moringa{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.moringa p{
+   font-size: 15px;
+   line-height: 20px;
+ 
+}
+.moringa a{
+    color: #E5872D;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
 }
