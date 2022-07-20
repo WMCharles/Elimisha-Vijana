@@ -1,6 +1,6 @@
-body{
-    margin-left: 18rem;
-    margin-right: 5rem;
+.container {
+    width: 87%;
+    margin: auto;
 }
 
 .all{

@@ -2,8 +2,10 @@
 .footer {
   height: 400px;
   background-color: #ede8e8;
-  padding-top: 15px;
+  padding: 2em;
+  margin-top: 2em;
 }
+
 #footer {
   width: 95%;
   height: 250px;
@@ -12,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 13px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .footer-section-1 a {
   text-decoration: none;
@@ -21,7 +23,7 @@
 
 .section-1 {
   font-size: 13px;
-  padding: 0 10px 0 10px;
+  padding: 2em 10px 2em 10px;
 }
 
 .email {

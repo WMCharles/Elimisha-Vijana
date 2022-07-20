@@ -6,8 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-
+.container {
+    width: 87%;
+    margin: auto;
+    font-family: 'Poppins';
+}
 
 .platform{
     display: flex;
