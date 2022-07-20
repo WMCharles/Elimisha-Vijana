@@ -297,7 +297,6 @@ button a {
 
   .about {
   flex-direction: column;
-    border: 1px solid red;
     padding: 0 10px 0 20px;
     height: 250px;
     width: 95%;
@@ -306,7 +305,6 @@ button a {
     margin-top: 20px;
     font-size: 10px;
     width: 100%;
-    border: 1px solid red;
   }
   .about-info {
  
@@ -316,7 +314,6 @@ button a {
     padding-top: 10px;
     font-size: 10px;
     text-align: left;
-    border: 1px solid black;
   }
   .about-info p {
     float: none;
