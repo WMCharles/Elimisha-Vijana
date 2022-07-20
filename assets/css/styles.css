@@ -106,6 +106,7 @@ h2, h3 {
 
 #person-x:hover {
     box-shadow: 1px 1px 5px #E5872D;
+    transition: all 0.3s ease-in;
 }
 
 #person {
