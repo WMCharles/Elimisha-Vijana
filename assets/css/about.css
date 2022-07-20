@@ -8,6 +8,7 @@ font-family: 'Oleo Script', cursive; */
   margin: 0 auto;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  list-style: none;
 }
 
 .conatiner {
@@ -244,11 +245,9 @@ button a {
 
 /* Start of category section styles*/
 .category {
-  border: 1px solid black;
   width: 95%;
-  
 }
-#scholarship-id   {
+#scholarship-id {
   text-align: center;
 }
 #category {
@@ -258,24 +257,22 @@ button a {
   font-size: 15px;
 }
 
-.category > h3 > span{
-  color:#e5872d;
+.category > h3 > span {
+  color: #e5872d;
 }
 
-.cat{
+.cat {
   display: flex;
   justify-content: space-around;
   margin-bottom: 30px;
-  padding-top:30px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
-
-
-.cat-card p{
+.cat-card p {
   font-size: 13px;
 }
-.cat-card{
+.cat-card {
   width: 300px;
   height: 200px;
   padding-top: 50px;
@@ -284,12 +281,84 @@ button a {
   box-shadow: 2px 2px 5px gray;
   transition: all 0.4s ease-out;
 }
-.cat-card:hover{
+.cat-card:hover {
   border: 1px solid #e5872d;
   box-shadow: none;
   transform: scale(1.02);
 }
 /* End of category section styles */
+
+/* Start of footer styles */
 .footer {
-  border: 1px solid blue;
+  width:100%; 
+  /* background-color: #4b59b7;
+  color: white; */
 }
+.footer-section-1{
+  display: flex;
+  font-size: 13px;
+  margin-top: 30px;
+
+  
+}
+.footer-section-1 a{
+  text-decoration: none;
+  color: black; 
+}
+
+
+.section-1{
+  font-size: 13px; 
+  padding: 0 10px 0 10px;
+}
+
+.email{
+  margin-top: 20px;
+}
+
+.email input[type=email]{
+  width: 200px;
+  height: 30px;
+  border-style: none;
+  background-color: #ede8e8;
+  text-align: center;
+}
+.email .submit-btn{
+  width: 100px;
+  height: 30px;
+  background-color: #4b59b7;
+  color: white;
+}
+
+#footer h4{
+  padding-bottom: 10px;
+}
+.information ul li a{
+ line-height: 2;
+}
+.company ul li {
+  line-height: 2;
+}
+
+.icons{
+  margin-top: 20px;
+  /* text-align: center; */
+  display: flex;
+
+}
+.fa-brands{
+  color: #4b59b7;
+  width: 80px;
+  font-size: 2rem;
+  
+}
+
+#copy-right{
+  text-align: center;
+}
+
+.footer #logo-name h3{
+  position: absolute;
+
+}
+/* End of footer styles */
