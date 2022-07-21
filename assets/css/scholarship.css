@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@300;400;500&family=Space+Grotesk&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -12,82 +12,109 @@
     font-family: 'Poppins';
 }
 
-.platform{
+/* about Scholarships */
+
+.platform-x {
     display: flex;
+    flex-direction: row;
+    margin-bottom: 8em;
 }
 
-.about-images{
-    width: 50%;
-    display: grid;
-    justify-content: space-around;
-    grid-template-columns:350px 300px ;
+.platform-x > div {
+    flex: 50%;
 }
 
-.about-images img{
+.about-images-x {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-images-x > div {
+    flex: 50%;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.images-1, .images-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.images-1 img, .images-2 img{
     width: 300px;
-    height: 200px;
+    border-radius: 8px;
 }
 
-.numbers{
+.numbers {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-#num{
+.about-text-x h2{
+    color: #E5872D;
+    margin-bottom: .7em;
+}
+
+.about-text-x p {
+    margin: .5em 0;
+}
+
+#num {
     color: #4B59B7;
 }
 
-.about-text{
-    width: 50%;
-}
-
-.about-text h2{
-    font-size: 40px;
-    color: #E5872D;
-}
-
-.about-text P{
-    font-size: 22PX;
-    line-height: 40px;
-}
-
-
-
 /* about Scholarships */
 
-.about-scholarships{
+.scholarship {
+    padding: 2em;
     display: flex;
-    justify-content: space-between; 
-    margin-top: 50px;
-    margin-right: 50px; 
+    flex-direction: column;
+    margin-bottom: 8em;
+}
+
+.scholarship h2 {
+    margin-bottom: 4em;
+    position: relative;
+    left: 2em;
+}
+
+.scholarship h3, .scholarship h2 {
+    color: #4B59B7;
+}
+
+.about-scholarships {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 1em;
+}
+
+.about-scholarships > div {
+    flex: 50%;
 }
 
 .about-institution {
     display: flex;
 }
 
-.about-institution img{
-    width: 250px;
+.about-institution > div {
+    margin-left: 2em;
+}
 
+#image {
+    flex: 30%;
 }
-.moringa{
-    padding-top: 25px;
-    margin-left: 20px;
+
+#image > img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
 }
-.moringa p{
-   font-size: 18 px;
-   line-height: 30px;
- 
-}
-.moringa a{
+
+.moringa > a {
     color: #E5872D;
-    text-decoration: none;
-    font-size: 25px;
 }
-
-
-/* responsiveness  */
-
 
 @media only screen and (max-width:1024px){
 
