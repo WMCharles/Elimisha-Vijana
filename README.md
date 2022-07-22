@@ -10,12 +10,17 @@ scholarship opportunities in one place. This way they don't have to jump from on
 ## Table of content
 
 + [Introduction](#introduction)
++ [Scholarships Page](#scholarships-page)
 + [Live Demo](#live-demo)
 + [Technologies Used](#technologies-used)
 + [Installation](#installation)
 + [Contributions](#contributions)
 + [Bugs & Feature Request](#bugs--fixes--feature-request)
 + [Authors](#authors)
+
+## Scholarships Page
+
+![image](https://github.com/WMCharles/Elimisha-Vijana/blob/main/scholarships.png)
 
 ## Live Demo
 
