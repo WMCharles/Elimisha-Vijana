@@ -20,8 +20,8 @@
     margin-bottom: 8em;
 }
 
-.platform-x > div {
-    flex: 50%;
+.platform-x div {
+    flex-grow: 50%;
 }
 
 .about-images-x {
@@ -40,7 +40,8 @@
 }
 
 .images-1 img, .images-2 img{
-    width: 350px;
+    width: 300px;
+    min-height: 200px;
     border-radius: 8px;
 }
 
@@ -74,7 +75,6 @@
 /* about Scholarships */
 
 .scholarship {
-    padding: 2em;
     display: flex;
     flex-direction: column;
     margin-bottom: 8em;
@@ -125,9 +125,9 @@
         flex-direction: column-reverse;
         margin-bottom: 4em;
     }
-    .about-text-x {
+    /* .about-text-x {
         font-size: smaller;
-    }
+    } */
     .about-text-x h2{
         margin: 0;
     }
