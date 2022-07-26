@@ -31,19 +31,24 @@
 
 .about-images-x > div {
     flex: 50%;
-    justify-content: space-evenly;
-    /* margin: 1rem; */
 }
 
 .images-1, .images-2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    
 }
 
 .images-1 img, .images-2 img{
-    width: 300px;
+    width: 350px;
     border-radius: 8px;
+}
+
+.images-1 {
+    margin-bottom: .6em;
+}
+.images-1 img:first-child, .images-2 img:first-child {
+    margin-right: .6em;
 }
 
 .numbers {
@@ -155,12 +160,13 @@
 }
 
 @media only screen and (min-width:800px) and (max-width:1360px) {
+    .platform-x .about-images-x{
+        flex: 50%;
+    }
     .about-institution {
         flex-direction: column;
     }
-    #image {
-        margin-right: 0;
-    }
+   
     #image img{
         width: 100%;
         height: 200px;
@@ -171,6 +177,9 @@
     }
     .images-1 {
         margin-bottom: .6em;
+    }
+    .images-1 img:first-child, .images-2 img:first-child {
+        margin-right: .6em;
     }
     .about-scholarships {
         justify-content: space-between;
