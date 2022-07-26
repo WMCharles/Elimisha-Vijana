@@ -32,7 +32,7 @@
 .about-images-x > div {
     flex: 50%;
     justify-content: space-evenly;
-    margin: 1rem;
+    /* margin: 1rem; */
 }
 
 .images-1, .images-2 {
@@ -54,7 +54,7 @@
 
 .about-text-x h2{
     color: #E5872D;
-    margin: 2em;
+    margin: 1em 0;
 }
 
 .about-text-x p {
@@ -97,17 +97,15 @@
 
 .about-institution {
     display: flex;
+    margin-right: 1em;
+    font-size: medium;
 }
 
-.about-institution > div {
-    /* margin-left: 2em; */
+.about-institution #image {
+    margin-right: 1em;
 }
 
-#image {
-    flex: 30%;
-}
-
-#image > img {
+#image img {
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -117,7 +115,7 @@
     color: #E5872D;
 }
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:800px){
     .platform-x {
         flex-direction: column-reverse;
         margin-bottom: 4em;
@@ -153,5 +151,29 @@
     #image img {
         width: 100%;
         height: auto;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1360px) {
+    .about-institution {
+        flex-direction: column;
+    }
+    #image {
+        margin-right: 0;
+    }
+    #image img{
+        width: 100%;
+        height: 200px;
+    }
+    .about-images-x {
+        flex-direction: column;
+        margin-right: 1em;
+    }
+    .images-1 {
+        margin-bottom: .6em;
+    }
+    .about-scholarships {
+        justify-content: space-between;
+        margin-bottom: 1.2em;
     }
 }
