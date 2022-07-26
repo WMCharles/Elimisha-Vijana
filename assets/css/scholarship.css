@@ -63,6 +63,7 @@
 
 #num {
     color: #4B59B7;
+    font-weight: 700;
 }
 
 /* about Scholarships */
@@ -117,6 +118,26 @@
 }
 
 @media only screen and (max-width:360px){
+    .platform-x {
+        flex-direction: column-reverse;
+        margin-bottom: 4em;
+    }
+    .about-text-x {
+        font-size: smaller;
+    }
+    .about-text-x h2{
+        margin: 0;
+    }
+    .images-1 {
+        flex-direction: column;
+    }
+    .images-2 {
+        flex-direction: column;
+    }
+    .images-1 img, .images-2 img {
+        width: 100%;
+        margin-bottom: 1em;
+    }
     .about-scholarships {
         flex-direction: column;
     }
@@ -127,7 +148,6 @@
     }
     #image {
         margin-bottom: .5em;
-    }
     }
     #image img {
         width: 100%;
