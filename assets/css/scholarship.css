@@ -21,12 +21,14 @@
 }
 
 .platform-x div {
-    flex-grow: 50%;
+    flex: 50%;
 }
 
 .about-images-x {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    
 }
 
 .about-images-x > div {
